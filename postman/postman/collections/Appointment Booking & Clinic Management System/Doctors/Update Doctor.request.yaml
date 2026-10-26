@@ -1,0 +1,19 @@
+$kind: http-request
+url: ""
+method: PUT
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "full_name": "Dr. Priya Sharma",
+      "specialization": "Internal Medicine",
+      "qualification": "MBBS, MD",
+      "phone_number": "9876543210",
+      "email": "dr.priya@clinic.com",
+      "consultation_fee": 600,
+      "available_timings": "Monday to Saturday, 10:00 AM to 2:00 PM"
+    }
+order: 4000

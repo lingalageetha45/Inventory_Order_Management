@@ -1,0 +1,19 @@
+$kind: http-request
+url: ""
+method: POST
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "full_name": "Rahul Kumar",
+      "age": 32,
+      "gender": "male",
+      "phone_number": "9876543211",
+      "address": "Bengaluru, Karnataka",
+      "blood_group": "O+",
+      "emergency_contact": "9876543212"
+    }
+order: 1000

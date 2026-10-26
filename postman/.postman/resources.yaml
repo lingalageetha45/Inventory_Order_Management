@@ -1,0 +1,15 @@
+# Use this workspace to collaborate
+workspace:
+  id: 44a01d76-eb56-4ec5-8058-e110aa35f7e3
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/Appointment Booking & Clinic Management System: 9cd138b2-bd06-4035-ab02-7fe21abb35b7
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

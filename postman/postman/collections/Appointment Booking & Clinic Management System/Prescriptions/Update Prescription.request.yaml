@@ -1,0 +1,17 @@
+$kind: http-request
+url: ""
+method: PUT
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "diagnosis": "Viral fever",
+      "medicines": "Paracetamol 500mg",
+      "dosage": "1 tablet twice daily",
+      "instructions": "Continue fluids and rest",
+      "follow_up_date": "2026-09-04"
+    }
+order: 4000

@@ -1,0 +1,10 @@
+$kind: collection
+description: Postman collection for the FastAPI clinic management backend.
+variables:
+  base_url: http://127.0.0.1:8000/api
+  token: ""
+  doctor_id: "1"
+  patient_id: "1"
+  appointment_id: "1"
+  prescription_id: "1"
+  record_id: "1"
